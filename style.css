@@ -1,0 +1,203 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.page1 {
+  border: 2px solid white;
+  height: 700px;
+  width: 100%;
+}
+.big_title {
+  position: absolute;
+  left: 50%;
+  font-size: 100px;
+  transform: translate(-50%);
+  font-weight: 600;
+
+  color: whitesmoke;
+}
+.title {
+  position: absolute;
+  left: 47%;
+  top: 22px;
+  color: rgb(80, 80, 231);
+}
+.small_title {
+  position: absolute;
+  font-size: 30px;
+  left: 40%;
+  top: 60px;
+}
+.container {
+  border: 2px solid white;
+  width: 85%;
+  height: 500px;
+  position: absolute;
+  top: 140px;
+  left: 50%;
+  transform: translate(-50%);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 1fr;
+  gap: 50px;
+}
+.one,
+.two,
+.three {
+  border: 2px solid white;
+  height: 400px;
+  width: 400px;
+}
+
+.one {
+  background-image: url(https://w0.peakpx.com/wallpaper/998/302/HD-wallpaper-dubai-night-lake.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.two {
+  background-image: url(https://i.pinimg.com/originals/74/9b/1b/749b1b80bc1e59d3b6f40bc803ea0882.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.three {
+  background-image: url(https://images.unsplash.com/photo-1490381541006-5611e864dfc0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGR1YmFpJTIwbmlnaHR8ZW58MHx8MHx8&w=1000&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box1 {
+  border: 1px solid white;
+  width: 397px;
+  height: 100px;
+  position: absolute;
+  bottom: -2px;
+  background-color: white;
+}
+.box2 {
+  border: 1px solid white;
+  width: 397px;
+  height: 100px;
+  position: absolute;
+  bottom: -2px;
+  background-color: white;
+}
+.box3 {
+  border: 1px solid white;
+  width: 397px;
+  height: 100px;
+  position: absolute;
+  bottom: -2px;
+  background-color: white;
+}
+.burj,
+.new_york,
+.rome {
+  position: absolute;
+  left: 48px;
+  top: 23px;
+}
+i {
+  position: absolute;
+  left: 48px;
+  top: 60px;
+}
+.time {
+  position: absolute;
+  top: 58px;
+  left: 68px;
+}
+.price {
+  position: absolute;
+  right: 30px;
+  top: 26px;
+  font-size: 20px;
+}
+.header2 {
+  border: 2px solid white;
+  width: 100%;
+  height: 150px;
+}
+.big_title1 {
+  position: absolute;
+  left: 50%;
+  font-size: 100px;
+  transform: translate(-50%);
+  font-weight: 600;
+
+  color: whitesmoke;
+}
+.title1 {
+  position: relative;
+  left: 47%;
+  top: 22px;
+  color: rgb(80, 80, 231);
+}
+.small_title1 {
+  position: relative;
+  font-size: 30px;
+  left: 40%;
+  top: 30px;
+}
+.master {
+  border: 2px solid white;
+  width: 87%;
+  height: 500px;
+  background-color: white;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 1fr 1fr;
+  gap: 20px;
+}
+.word1,
+.word2,
+.word3,
+.word4,
+.word5,
+.word6 {
+  border: 1px solid white;
+  background-color:whitesmoke ;
+  width: 427px;
+  height: 239px;
+  border-radius: 5px;
+}
+
+.taxi,
+.wifi,
+.call,
+.hospital,
+.room,
+.food {
+  position: relative;
+  top: 10px;
+  font-size: 40px;
+  color: #6168ff;
+}
+.room {
+  position: relative;
+  top: auto;
+  font-size: 40px;
+  color: #6168ff;
+}
+.delux_room,
+.airport_taxi,
+.free_wifi,
+.tour_guide,
+.free_medication,
+.delicoius_food {
+  font-size: 20px;
+  position: relative;
+  top: 60px;
+  left: 120px;
+}
+.lorem {
+  position: relative;
+  top: 80px;
+  left: 122px;
+}
+.food {
+  position: relative;
+  top: 10px;
+}
